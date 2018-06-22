@@ -57,6 +57,8 @@
         </div>
     </nav>
 
+    @widget('test')
+
     @yield('content')
 
     <!-- JavaScripts -->

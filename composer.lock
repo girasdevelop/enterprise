@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "249ddd1396b6a207187fc7edadbf7714",
+    "content-hash": "f2ae610817a9697edfe700ef23ed77a9",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -159,6 +159,41 @@
                 "string"
             ],
             "time": "2018-01-09T20:05:19+00:00"
+        },
+        {
+            "name": "itstructure/laravel-widgets",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../itstructure/laravel-widgets",
+                "reference": "a00cf326143b41d8475edd56751b63ffaa608fcd",
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Itstructure\\Widgets\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "YourName",
+                    "email": "yourmail",
+                    "homepage": "https://github.com/itstructure",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Package for using widgets in Laravel-5",
+            "keywords": [
+                "laravel",
+                "widgets"
+            ]
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -3247,7 +3282,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "itstructure/laravel-widgets": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

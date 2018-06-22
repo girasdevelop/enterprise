@@ -7,7 +7,8 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "jeroennoten/laravel-adminlte": "^1.23"
+        "jeroennoten/laravel-adminlte": "^1.23",
+        "itstructure/laravel-widgets": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -16,6 +17,12 @@
         "symfony/css-selector": "2.8.*|3.0.*",
         "symfony/dom-crawler": "2.8.*|3.0.*"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../itstructure/laravel-widgets"
+        }
+    ],
     "autoload": {
         "classmap": [
             "database"

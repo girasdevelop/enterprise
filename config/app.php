@@ -157,6 +157,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\UpdateServiceProvider::class,
         JeroenNoten\LaravelAdminLte\ServiceProvider::class,
+        Itstructure\Widgets\WidgetServiceProvider::class,
 
     ],
 
