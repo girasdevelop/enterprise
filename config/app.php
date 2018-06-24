@@ -158,7 +158,7 @@ return [
         App\Providers\UpdateServiceProvider::class,
         JeroenNoten\LaravelAdminLte\ServiceProvider::class,
         Itstructure\Widgets\WidgetServiceProvider::class,
-
+        Itstructure\MultiMenu\MultiMenuServiceProvider::class,
     ],
 
     /*

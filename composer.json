@@ -8,7 +8,8 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "jeroennoten/laravel-adminlte": "^1.23",
-        "itstructure/laravel-widgets": "dev-master"
+        "itstructure/laravel-widgets": "dev-master",
+        "itstructure/laravel-multi-menu": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -21,6 +22,10 @@
         {
             "type": "path",
             "url": "../itstructure/laravel-widgets"
+        },
+        {
+            "type": "path",
+            "url": "../laravel-multi-menu"
         }
     ],
     "autoload": {
