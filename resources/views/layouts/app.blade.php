@@ -57,6 +57,8 @@
         </div>
     </nav>
 
+    {{app('multiMenuWidget')->run()}}
+
     @yield('content')
 
     <!-- JavaScripts -->

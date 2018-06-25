@@ -1,1 +1,3 @@
-{{$multiMenuWidget->run()}}
+THIS IS ITEM
+{{$primaryKeyName}}
+{{$multiMenuWidget->config['parentKeyName']}}
