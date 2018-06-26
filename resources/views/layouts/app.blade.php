@@ -56,7 +56,8 @@
             </div>
         </div>
     </nav>
-
+    <pre>
+    {{var_dump(\App\Catalog::all())}}
     {{app('multiMenuWidget')->run()}}
 
     @yield('content')

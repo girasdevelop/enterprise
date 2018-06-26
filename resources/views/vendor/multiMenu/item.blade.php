@@ -1,3 +1,1 @@
-THIS IS ITEM
-{{$primaryKeyName}}
-{{$multiMenuWidget->config['parentKeyName']}}
+<li>{{$data->id}} need to be changed</li>
