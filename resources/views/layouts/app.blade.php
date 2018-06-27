@@ -58,7 +58,9 @@
     </nav>
     <pre>
     {{--{{var_dump(\App\Catalog::all())}}--}}
-    {!! app('multiMenuWidget')->run([]) !!}
+    @php $models = \App\Catalog::all() @endphp
+    {{--{!! var_dump($models) !!}--}}
+    {{app('multiMenuWidget')->run($models)}}
 
     @yield('content')
 
