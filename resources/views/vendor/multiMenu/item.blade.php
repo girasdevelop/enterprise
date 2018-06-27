@@ -1,1 +1,1 @@
-<li>{{$data->id}} need to be changed</li>
+<li>{!! $data->id !!} need to be changed</li>
